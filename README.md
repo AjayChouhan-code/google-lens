@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Google Clone Project
 
-## Getting Started
+This project is a Google Clone built with Next.js, focusing on replicating key features of the Google search engine, particularly the image search functionality.
 
-First, run the development server:
+## Project Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This Google Clone aims to recreate the look and feel of Google's search interface, including the main search page, image search, and results display. It's built using modern web technologies and practices, showcasing a responsive and interactive user interface.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. **Main Search Page**
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+   - Google-like layout with centered logo and search bar
+   - Dynamic search suggestions
+   - Voice search interface (UI only)
 
-## Learn More
+2. **Image Search**
 
-To learn more about Next.js, take a look at the following resources:
+   - Toggle between text and image search
+   - Drag-and-drop file upload
+   - File selection via system dialog
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. **Search Results Modal**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+   - Display of uploaded image
+   - Image cropping functionality with draggable corners
+   - Mock visual matches display
+   - Action buttons for different search types (Search, Text, Translate)
 
-## Deploy on Vercel
+4. **Responsive Design**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   - Adapts to different screen sizes
+   - Mobile-friendly interface
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+5. **Header and Footer**
+   - Mimics Google's header and footer layout
+   - Includes navigation links and user controls
+
+## Setup Process
+
+1. **Clone the Repository**
+
+https://github.com/AjayChouhan-code/google-lens.git
+
+2. Run npm install command for installing all dependency.
+
+3. Run npm run dev to run the application locally.
+
+## Hosted Application :
+
+https://google-lens-xtfv.vercel.app/
